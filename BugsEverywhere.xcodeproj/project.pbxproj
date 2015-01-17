@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		AE519B1C1A6604B600AF8070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE519B1B1A6604B600AF8070 /* main.m */; };
 		AE519B1F1A6604B600AF8070 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE519B1E1A6604B600AF8070 /* AppDelegate.m */; };
-		AE519B221A6604B600AF8070 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE519B211A6604B600AF8070 /* ViewController.m */; };
 		AE519B251A6604B600AF8070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE519B231A6604B600AF8070 /* Main.storyboard */; };
 		AE519B271A6604B600AF8070 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE519B261A6604B600AF8070 /* Images.xcassets */; };
 		AE519B2A1A6604B600AF8070 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE519B281A6604B600AF8070 /* LaunchScreen.xib */; };
 		AE519B361A6604B600AF8070 /* BugsEverywhereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE519B351A6604B600AF8070 /* BugsEverywhereTests.m */; };
+		AE519B411A66060500AF8070 /* NextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE519B401A66060500AF8070 /* NextVC.m */; };
+		AE519B441A660ADD00AF8070 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE519B431A660ADD00AF8070 /* RootVC.m */; };
+		AE986F791A684B57003F09A5 /* ProductNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = AE986F781A684B57003F09A5 /* ProductNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		AE519B1B1A6604B600AF8070 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE519B1D1A6604B600AF8070 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE519B1E1A6604B600AF8070 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE519B201A6604B600AF8070 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE519B211A6604B600AF8070 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE519B241A6604B600AF8070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE519B261A6604B600AF8070 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE519B291A6604B600AF8070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AE519B2F1A6604B600AF8070 /* BugsEverywhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BugsEverywhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE519B341A6604B600AF8070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE519B351A6604B600AF8070 /* BugsEverywhereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugsEverywhereTests.m; sourceTree = "<group>"; };
+		AE519B3F1A66060500AF8070 /* NextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextVC.h; sourceTree = "<group>"; };
+		AE519B401A66060500AF8070 /* NextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextVC.m; sourceTree = "<group>"; };
+		AE519B421A660ADD00AF8070 /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		AE519B431A660ADD00AF8070 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		AE986F771A684B57003F09A5 /* ProductNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductNumber.h; sourceTree = "<group>"; };
+		AE986F781A684B57003F09A5 /* ProductNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +87,13 @@
 		AE519B181A6604B600AF8070 /* BugsEverywhere */ = {
 			isa = PBXGroup;
 			children = (
-				AE519B1D1A6604B600AF8070 /* AppDelegate.h */,
-				AE519B1E1A6604B600AF8070 /* AppDelegate.m */,
-				AE519B201A6604B600AF8070 /* ViewController.h */,
-				AE519B211A6604B600AF8070 /* ViewController.m */,
 				AE519B231A6604B600AF8070 /* Main.storyboard */,
-				AE519B261A6604B600AF8070 /* Images.xcassets */,
-				AE519B281A6604B600AF8070 /* LaunchScreen.xib */,
+				AE519B421A660ADD00AF8070 /* RootVC.h */,
+				AE519B431A660ADD00AF8070 /* RootVC.m */,
+				AE519B3F1A66060500AF8070 /* NextVC.h */,
+				AE519B401A66060500AF8070 /* NextVC.m */,
+				AE986F771A684B57003F09A5 /* ProductNumber.h */,
+				AE986F781A684B57003F09A5 /* ProductNumber.m */,
 				AE519B191A6604B600AF8070 /* Supporting Files */,
 			);
 			path = BugsEverywhere;
@@ -96,6 +102,10 @@
 		AE519B191A6604B600AF8070 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE519B1D1A6604B600AF8070 /* AppDelegate.h */,
+				AE519B261A6604B600AF8070 /* Images.xcassets */,
+				AE519B281A6604B600AF8070 /* LaunchScreen.xib */,
+				AE519B1E1A6604B600AF8070 /* AppDelegate.m */,
 				AE519B1A1A6604B600AF8070 /* Info.plist */,
 				AE519B1B1A6604B600AF8070 /* main.m */,
 			);
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE519B221A6604B600AF8070 /* ViewController.m in Sources */,
 				AE519B1F1A6604B600AF8070 /* AppDelegate.m in Sources */,
+				AE986F791A684B57003F09A5 /* ProductNumber.m in Sources */,
 				AE519B1C1A6604B600AF8070 /* main.m in Sources */,
+				AE519B441A660ADD00AF8070 /* RootVC.m in Sources */,
+				AE519B411A66060500AF8070 /* NextVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				AE519B3B1A6604B600AF8070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE519B3C1A6604B600AF8070 /* Build configuration list for PBXNativeTarget "BugsEverywhereTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				AE519B3E1A6604B600AF8070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
